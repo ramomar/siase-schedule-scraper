@@ -1,0 +1,14 @@
+{
+    "name": "SIASE Schedule Parser",
+    "manifest_version": 2,
+    "version": "1.0",
+    "description": "Parser de los horarios del SIASE",
+    "background": {
+        "scripts": ["app/bower_components/zepto/zepto.min.js", "app/background.js"],
+        "persistent": false
+    },
+    "permissions": ["http://deimos.dgi.uanl.mx/cgi-bin/wspd_cgi.sh*"],
+    "browser_action": {
+        "default_title": "Parse"
+    }
+}
