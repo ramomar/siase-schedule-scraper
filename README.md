@@ -36,3 +36,4 @@ script en la frame. (fea)
 
 ## Notas
 Código en ingles para practicar :p
+Para que el complemento de Chrome funcione hay que estar en la misma página del horario y esperar a que cargue.
