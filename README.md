@@ -2,15 +2,15 @@ Schedule Parser
 ===============
 
 Schedule Parser es un script que permite extraer los horarios del SIASE en formato JSON.
-Muestra de salida: 
+Muestra de salida:
 
 `[
   {
-    "fullName": "CULTURA DE LA LENGUA INGLESA",
+    "longName": "CULTURA DE LA LENGUA INGLESA",
     "shortName": "CULING",
-    "days": [
+    "sessions": [
       {
-        "weekdayNumber": 1,
+        "weekday": 1,
         "turn": 5,
         "group": "012",
         "classroom": "1205",
@@ -22,11 +22,7 @@ Muestra de salida:
 
 ## Funcionamiento
 
-Hay dos maneras de usar el script, una fea y una no tan fea:
-
-1. Descargar la página completa,  e inyectar Zepto mediante la etiqueta script. Utilizar la consola y hacer copy-paste del
-script en la frame. (fea)
-2. Utilizar el complemento de Chrome. (no tan fea)
+Navegar hacia la página del horario y hacer copy-paste en la consola de desarrollador.
 
 ## Escuelas compatibles
 
@@ -35,5 +31,5 @@ script en la frame. (fea)
 * ...
 
 ## Notas
-Código en ingles para practicar :p
-Para que el complemento de Chrome funcione hay que estar en la misma página del horario y esperar a que cargue.
+Código en inglés para practicar :p.
+Probado en Google Chrome  44.0.2403.89 y Safari  8.0.7.
