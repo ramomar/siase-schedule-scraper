@@ -6,12 +6,13 @@ function isPM(str) {
 }
 
 function to24Hours(timeString) {
-  // all the regexes here are somewhat hardcore i dont care, i plan to use them in another things
-  // this thing just matches pm hours, it should return 4 groups
-  // first group complete match e.g 2:00 pm or 2:00pm
-  // second group hours 2
-  // third group minutes 00
-  // and fourth group should be pm|am|p.m|a.m
+  /* all the regexes here are somewhat hardcore i dont care, i plan to use them in another things
+   * this thing just matches pm hours, it should return 4 groups
+   * first group complete match e.g 2:00 pm or 2:00pm
+   * second group hours 2
+   * third group minutes 00
+   * and fourth group should be pm|am|p.m|a.m
+   */
   var reg = /([\d]{1,2}\s*?):\s*?([\d]{1,2})\s*(p\.m|pm|a\.m|am)/g;
   var res = reg.exec(timeString);
   var hour, minutes;
@@ -148,7 +149,6 @@ function getCoursesNamesInSchedule() {
  * the short name of the course.
  * Basically for each course we match a cell that contains its short name.
  */
-
 var courses = getCoursesNamesInSchedule();
 var cells = htmlTableToArray();
 

@@ -31,5 +31,5 @@ Navegar hacia la página del horario y hacer copy-paste en la consola de desarro
 * ...
 
 ## Notas
-Código en inglés para practicar :p.
+Código en inglés para practicar :p.  
 Probado en Google Chrome  44.0.2403.89 y Safari  8.0.7.
