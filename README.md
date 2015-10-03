@@ -60,16 +60,21 @@ Muestra de salida:
 Navegar hacia la página del horario y hacer copy-paste en la consola de desarrollador.
 
 ## Usos
-* Crear carpetas de manera automática.
-* Mostrar el horario en tu smartwatch.
+* Crear carpetas para guardar los documentos de tus materias.
+* Mostrar el horario en tu [smartwatch](https://cloud.githubusercontent.com/assets/10622989/10264092/94bf0998-69c8-11e5-89de-de357baf294b.png).
 * Experimentos.
 * etc.
 
 ## Escuelas compatibles
 
-* FIME
-* Prepa 7
-* ...
+* FIME.
+* FARQ.
+* Medicina.
+* Químicas.
+* Prepa 7.
+* *En teoría debería de funcionar en todas las dependencias porque la sección del horario es igual para todos... EN TEORÍA*.
 
 ## Notas
-Probado en Google Chrome  44.0.2403.89 y Safari  8.0.7.
+Siéntete con la confianza de escribirme a omaarg  gmail com.
+
+Probado en Google Chrome 44.0.2403.89 y Safari  8.0.7.
