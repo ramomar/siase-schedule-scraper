@@ -1,7 +1,10 @@
 Schedule Parser
 ===============
 
+![schpar](https://cloud.githubusercontent.com/assets/10622989/10264645/bb5fd5e4-6a01-11e5-8590-b2e31bf60741.gif)
+
 Schedule Parser es un script que permite extraer los horarios del SIASE en formato JSON.
+
 Muestra de salida:
 
 `[
