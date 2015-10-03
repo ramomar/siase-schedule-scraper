@@ -4,8 +4,7 @@ Schedule Parser
 Schedule Parser es un script que permite extraer los horarios del SIASE en formato JSON.
 Muestra de salida:
 
-`
-[
+`[
   {
     "longName": "PROGRAMACION DE SISTEMAS ADAPTATIVOS",
     "shortName": "SISTADA",
@@ -52,10 +51,9 @@ Muestra de salida:
       }
     ],
     "frequency": 5
-  }
+  },
   ...
-]
-`
+]`
 
 ## Funcionamiento
 
@@ -63,7 +61,9 @@ Navegar hacia la página del horario y hacer copy-paste en la consola de desarro
 
 ## Usos
 * Crear carpetas de manera automática.
-* Mostrar tu horario en tu reloj.
+* Mostrar el horario en tu smartwatch.
+* Experimentos.
+* etc.
 
 ## Escuelas compatibles
 
