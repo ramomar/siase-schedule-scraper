@@ -3,6 +3,8 @@ Schedule Parser
 
 ![schpar](https://cloud.githubusercontent.com/assets/10622989/10264645/bb5fd5e4-6a01-11e5-8590-b2e31bf60741.gif)
 
+El SIASE es un sistema desarrollado por la Universidad Autónoma de Nuevo León para dar servicio a sus alumnos; cuenta con un sistema para mostrar horarios y revisar calificaciones.
+
 Schedule Parser es un script que permite extraer los horarios del SIASE en formato JSON.
 
 Muestra de salida:
