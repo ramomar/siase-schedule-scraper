@@ -1,7 +1,9 @@
 Schedule Scraper 
 ===============
 
-![schpar](https://cloud.githubusercontent.com/assets/10622989/10264645/bb5fd5e4-6a01-11e5-8590-b2e31bf60741.gif)
+<p align="center">
+  <img src="https://cloud.githubusercontent.com/assets/10622989/10264645/bb5fd5e4-6a01-11e5-8590-b2e31bf60741.gif">
+</p>
 
 El SIASE es un sistema desarrollado por la Universidad Autónoma de Nuevo León para dar servicio a sus alumnos; tiene la capacidad para mostrar horarios y revisar calificaciones, entre otras cosas.
 
