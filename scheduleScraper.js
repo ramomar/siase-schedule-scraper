@@ -62,7 +62,7 @@ function extractGroupAndClassroom(str) {
   return data;
 }
 
-// Timmy where did you get this nice function? Uhh... internet? All right. :p
+// Timmy where did you get this nice function? Uhh... internet? :p
 function escapeRegExp(str) {
   return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
 }
