@@ -88,7 +88,7 @@ function htmlTableToArray() {
   // Now we have the table (actually we get a <tbody>)
   var schedule = uselessTr.parentNode;
 
-  // The tr is garbage
+  // This tr is garbage
   uselessTr.remove();
 
   // We'll use an array to store all the cells
