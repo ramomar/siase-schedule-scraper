@@ -10,7 +10,7 @@ function printJSON(json) {
 
 function isPM(str) {
   var detectPMreg =  /(p\.m|pm)/g;
-  return (detectPMreg.exec(str) !== null) ? true:false;
+  return detectPMreg.exec(str) !== null;
 }
 
 function to24Hours(timeString) {
@@ -45,12 +45,12 @@ function extractTimeFromString(str) {
 
 function isLab(str) {
   var res = str.search("LB");
-  return (res > -1) ? true : false;
+  return res > -1;
 }
 
 function isCourseScheduled(courseToSearch, strToInspect) {
   var res = strToInspect.search(escapeRegExp(courseToSearch));
-  return (res > -1) ? true : false;
+  return res > -1;
 }
 
 function extractGroupAndClassroom(str) {
